@@ -21,5 +21,7 @@ int main(){
    cout<<"Please check your information correctness."<<endl;
    cout<<"Your ID is "<<ID<<"."<<endl;
    cout<< "And your age is "<<age<<"."<<endl;
+    srand(time(NULL));
+    int x=rand()%10000;
     return 0;
 }
