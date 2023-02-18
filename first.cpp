@@ -23,6 +23,6 @@ int main(){
    cout<< "And your age is "<<age<<"."<<endl;
     srand(time(NULL));
     int x=rand()%10000;
-    cout<<"Your registered account ID is "<<x<<" ,please keep it in your mind."<<endl;+    cout<<endl<<endl;
+    cout<<endl<<endl;
     return 0;
 }
