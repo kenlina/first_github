@@ -1,5 +1,7 @@
 #include<iostream>
 #include<string>
+#include<stdlib.h>
+#include<time.h>
 using namespace std;
 void get_info(string &name,string &ID,int &age)
 {
