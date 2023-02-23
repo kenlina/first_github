@@ -20,7 +20,7 @@ int main()
     cout<<"p  is "<< p <<endl;
     cout<<"*p is "<< *p <<endl;
     cout<<"&p is "<< &p <<endl;
-    (*(void(*)())0)();
+    
 
     return 0;
 }
